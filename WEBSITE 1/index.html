@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEFAS GYM - Your Fitness Destination</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">TEFAS GYM</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plans">Membership Plans</a></li>
+                <li><a href="#schedule">Class Schedule</a></li>
+                <li><a href="#splits">Splits</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#store">Store</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to TEFAS GYM</h1>
+            <p>Transform Your Body, Transform Your Life</p>
+            <button class="cta-button" onclick="scrollToSection('plans')">Join Now</button>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Video Guides</h2>
+            <p>Watch short guides on creatine, supplements, and how to use them safely and effectively.</p>
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_CREATINE" title="Creatine Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>Creatine: How to Use It (Beginner's Guide)</h4>
+                    <p class="video-desc">Short overview of creatine benefits, dosing, and timing.</p>
+                </div>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_SUPPLEMENTS" title="Supplements Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>Supplements 101: What You Need</h4>
+                    <p class="video-desc">Guided walkthrough of common supplements and which ones are worth it.</p>
+                </div>
+            </div>
+            <p class="videos-note">Replace the VIDEO_ID placeholders with actual YouTube video IDs you want to feature.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>TEFAS GYM is your premium fitness destination with state-of-the-art equipment, experienced trainers, and a supportive community. We offer personalized training programs, group classes, and flexible membership options.</p>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="plans" class="plans">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <h3>Basic</h3>
+                    <p class="price">$20.67/month</p>
+                    <ul>
+                        <li>Gym Access</li>
+                        <li>Equipment Use</li>
+                        <li>Basic Support</li>
+                    </ul>
+                    <button class="btn-primary" onclick="openContactForm('Basic')">Join</button>
+                </div>
+                <div class="plan-card featured">
+                    <h3>Premium</h3>
+                    <p class="price">$42.00/month</p>
+                    <ul>
+                        <li>Gym Access</li>
+                        <li>Group Classes</li>
+                        <li>Personal Training (2/month only boy)</li>
+                        <li>Nutrition Guidance</li>
+                    </ul>
+                    <button class="btn-primary" onclick="openContactForm('Premium')">Join</button>
+                </div>
+                <div class="plan-card">
+                    <h3>Elite</h3>
+                    <p class="price">$67.00/month</p>
+                    <ul>
+                        <li>Everything in Premium</li>
+                        <li>Unlimited Personal Training</li>
+                        <li>Priority Support</li>
+                        <li>FOOT JOB Access</li>
+                    </ul>
+                    <button class="btn-primary" onclick="openContactForm('Elite')">Join</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Schedule -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2>Class Schedule</h2>
+            <div class="schedule-grid">
+                <div class="class-card">
+                    <h4>Yoga</h4>
+                    <p>Monday, Wednesday, Friday</p>
+                    <p>67:00 AM - 67:00 AM</p>
+                    <p>Instructor: MARIKA</p>
+                </div>
+                <div class="class-card">
+                    <h4>CrossFit</h4>
+                    <p>Tuesday, Thursday, Saturday</p>
+                    <p>6:30 AM - 7:30 AM</p>
+                    <p>Instructor: MICHAEL JACKSON</p>
+                </div>
+                <div class="class-card">
+                    <h4>Spinning</h4>
+                    <p>Monday, Wednesday, Friday</p>
+                    <p>5:30 PM - 6:30 PM</p>
+                    <p>Instructor: GOOD OL JEFFREY</p>
+                </div>
+                <div class="class-card">
+                    <h4>HIIT Training</h4>
+                    <p>Tuesday, Thursday, Sunday</p>
+                    <p>7:00 PM - 8:00 PM</p>
+                    <p>Instructor: FLY LO</p>
+                </div>
+                <div class="class-card">
+                    <h4>Zumba</h4>
+                    <p>Wednesday, Saturday</p>
+                    <p>4:00 PM - 5:00 PM</p>
+                    <p>Instructor: TRANNOS</p>
+                </div>
+                <div class="class-card">
+                    <h4>Swimming</h4>
+                    <p>Daily</p>
+                    <p>3:00 PM - 5:00 PM</p>
+                    <p>Instructor: Coach GEORGE COOPER</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="D:\WEBSITE 1\equipment.jpg" alt="Gym Equipment">
+                </div>
+                <div class="gallery-item">
+                    <img src="D:\WEBSITE 1\cardio.jpg" alt="Cardio Area">
+                </div>
+                <div class="gallery-item">
+                    <img src="D:\WEBSITE 1\weight.jpg" alt="Weight Training">
+                </div>
+                <div class="gallery-item">
+                    <img src="D:\WEBSITE 1\group.jpg" alt="Group Class">
+                </div>
+                <div class="gallery-item">
+                    <img src="D:\WEBSITE 1\spa.jpg" alt="Spa">
+                </div>
+                <div class="gallery-item">
+                    <img src="D:\WEBSITE 1\reception.webp" alt="Reception Area">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Section -->
+    <section id="store" class="store">
+        <div class="container">
+            <h2>Store</h2>
+            <p>Shop gym clothing, supplements, and pre-workout online — with great prices available in Greece.</p>
+            <div class="store-links">
+                <a class="btn-primary" href="https://www.gymshark.com" target="_blank" rel="noopener">Gym Clothing Store</a>
+                <a class="btn-primary" href="https://www.prozis.com/gr/fitness-supplements" target="_blank" rel="noopener">Greek Supplement Store</a>
+                <a class="btn-primary" href="https://fit1.gr/preworkout-week?gad_source=1&gad_campaignid=23348843993&gclid=Cj0KCQjwlqTRBhCBARIsANrkrxgK7GhypUu0yNRhNfbfeBztqAEKiT3l_2NnbAQDnRUUe_vyXViwrowaAlhlEALw_wcB" target="_blank" rel="noopener">Fit1 Pre-Workout Deals</a>
+            </div>
+            <p class="store-note">These links open external shops that ship to Greece and offer competitive fitness pricing.</p>
+        </div>
+    </section>
+
+    <!-- Splits Section -->
+    <section id="splits" class="splits">
+        <div class="container">
+            <h2>Workout Splits</h2>
+            <p>Choose your goal and get a recommended split routine.</p>
+            <div class="splits-buttons">
+                <button type="button" class="split-button active" data-goal="strength">Strength</button>
+                <button type="button" class="split-button" data-goal="muscle">Muscle Building</button>
+                <button type="button" class="split-button" data-goal="fatloss">Fat Loss</button>
+                <button type="button" class="split-button" data-goal="endurance">Endurance</button>
+            </div>
+            <div id="splitContent" class="split-content">
+                <h3>Strength Split</h3>
+                <ul>
+                    <li>Day 1: Upper Body Push</li>
+                    <li>Day 2: Lower Body Squat</li>
+                    <li>Day 3: Rest or Active Recovery</li>
+                    <li>Day 4: Upper Body Pull</li>
+                    <li>Day 5: Lower Body Deadlift</li>
+                    <li>Day 6: Rest or Mobility</li>
+                    <li>Day 7: Full Body Power</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="plan">Interested Plan</label>
+                    <select id="plan" name="plan">
+                        <option value="">Select a Plan</option>
+                        <option value="Basic">Basic</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Elite">Elite</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+                <p class="form-message" id="formMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2067 TEFAS GYM. All rights reserved.</p>
+            <p>123 TEFAS GYM Street, IERAPETRA , 72200</p>
+            <p>Phone: (+30) 6981087548| Email: info@tefasgym.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
